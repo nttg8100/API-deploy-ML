@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iris</title>
+</head>
+<body>
+    <form method = "post" autocomplete = "on">
+        <b><label for = "sepal_length">Sepal length:</label></b><br>
+        <input type = "number" id = "sepal_length" name = "sepal_length" required step = "any"/><br>
+        <b><label for = "sepal_width">Sepal width:</label></b><br>
+        <input type = "number" id = "sepal_width" name = "sepal_width" required step = "any"/><br>
+        <b><label for = "petal_length">Petal length:</label></b><br>
+        <input type = "number" id = "petal_length" name = "petal_length" required step = "any"/><br>
+        <b><label for = "petal_width">Petal width:</label></b><br>
+        <input type = "number" id = "petal_width" name = "petal_width" required step = "any"/><br>
+        <p><input type = "submit" value = "Submit"/></p>
+    </form>
+
+    <p><b>Result: </b>{{ result }}</p>
+</body>
+</html>
